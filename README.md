@@ -48,6 +48,12 @@ login vào Demo User với is_admin = 1 ta thấy phần Quản trị viên
 <img width="710" height="304" alt="image" src="https://github.com/user-attachments/assets/7d482dd4-9567-45a9-93e0-f89d06af457e" />
 ----> ta thấy phần Quản trị viên  không có:
   <img width="1580" height="626" alt="image" src="https://github.com/user-attachments/assets/ec003583-00e4-4a38-a2af-614286c91e6c" />
+Bài10: Kiểm thử nhanh
+Các thư mục test trong code :
+<img width="742" height="540" alt="image" src="https://github.com/user-attachments/assets/fa635900-f4b0-44e1-ab96-9ee93ff71756" />
+- Chạy kiểm thử các test case:
+<img width="1420" height="1002" alt="image" src="https://github.com/user-attachments/assets/3e52cf7c-5bd5-45f8-8c64-f0d7b0348a04" />
+
 
 
 
