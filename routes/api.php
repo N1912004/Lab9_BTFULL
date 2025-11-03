@@ -18,8 +18,8 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-// Cách A – Áp dụng throttle trên nhóm API:
-Route::middleware(['throttle:60,1'])->group(function () {
-    Route::get('/public-info', fn() => ['status'=>'ok']);
-    // Các route API khác...
+// Dummy webhook endpoint for demonstration
+Route::post('/webhook-test', function (Request $request) {
+    Log::info('Webhook received:', $request->all());
+    return response()->json(['status' => 'success', 'message' => 'Webhook received']);
 });

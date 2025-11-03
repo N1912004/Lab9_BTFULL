@@ -14,6 +14,11 @@
                 <a href="{{ route('articles.create') }}" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
                     Viết bài
                 </a>
+                @can('admin')
+                <a href="/admin" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                    Quản trị viên
+                </a>
+                @endcan
                 <form method="POST" action="{{ route('logout') }}" class="inline-block">
         @csrf
                     <button type="submit" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium bg-transparent border-none cursor-pointer">

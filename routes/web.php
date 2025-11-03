@@ -18,6 +18,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+// Simple test route
+Route::get('/test-route', function () {
+    return 'Hello Test!';
+});
+
 // Công khai
 Route::resource('articles', ArticleController::class)->only(['index','show']);
 
