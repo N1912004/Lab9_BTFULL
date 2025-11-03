@@ -1,3 +1,4 @@
+I. Ảnh minh hoạ quá trình thực hiện
 <img width="1168" height="370" alt="image" src="https://github.com/user-attachments/assets/fcc303d4-78e8-4b71-a8a1-cd90851cb7b9" />
 <img width="1894" height="1066" alt="image" src="https://github.com/user-attachments/assets/daf57d30-f47e-44ec-838b-31603242f914" />
 <img width="1636" height="772" alt="image" src="https://github.com/user-attachments/assets/051eda55-e787-467e-988d-090c7b3f0314" />
