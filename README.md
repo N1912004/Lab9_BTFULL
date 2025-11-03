@@ -15,3 +15,18 @@
 
 Bài8: 
 <img width="610" height="226" alt="image" src="https://github.com/user-attachments/assets/1043bc14-4523-4224-99af-db68c651c2c0" />
+giải thích: 
+Khi ta bỏ qua (exclude) một route khỏi middleware VerifyCsrfToken, nghĩa là Laravel không còn kiểm tra mã xác thực (CSRF token) cho request đó nữa.
+Điều này mở ra nguy cơ cho các cuộc tấn công kiểu Cross-Site Request Forgery (CSRF).
+🔐 1. CSRF là gì?
+CSRF (Cross-Site Request Forgery) là kiểu tấn công trong đó kẻ xấu lợi dụng trình duyệt của người dùng đã đăng nhập để gửi yêu cầu trái phép đến máy chủ ứng dụng.
+Vì trình duyệt vẫn lưu cookie session, máy chủ sẽ tin rằng yêu cầu là từ người dùng hợp lệ.
+Ví dụ:
+Bạn đang đăng nhập vào trang yourapp.com.
+Kẻ tấn công tạo một trang độc hại có form:
+<form action="https://yourapp.com/api/webhook-test" method="POST">
+    <input type="hidden" name="message" value="Hacked!">
+</form>
+<script>document.forms[0].submit();</script>
+Khi bạn mở trang độc hại này, trình duyệt tự động gửi request đến /api/webhook-test kèm cookie đăng nhập của bạn.
+Nếu route này không có CSRF bảo vệ, request đó được chấp nhận và thực thi như thể bạn tự gửi.
