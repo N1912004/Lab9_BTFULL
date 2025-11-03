@@ -11,11 +11,18 @@ I. Ảnh minh hoạ quá trình thực hiện
 <img width="1646" height="1220" alt="image" src="https://github.com/user-attachments/assets/fa9a6412-19ca-43d3-82fb-fb25ac675b58" />
 <img width="1644" height="808" alt="image" src="https://github.com/user-attachments/assets/dfa4db6e-fb2f-49b6-9cee-c5958c6266de" />
 <img width="1644" height="258" alt="image" src="https://github.com/user-attachments/assets/f48b3b37-0392-406f-8839-24fd3fa4e7bf" />
-![Uploading image.png…]()
+
+
 ====Bài tập ôn luyện====
 
+
 Bài8: 
-<img width="610" height="226" alt="image" src="https://github.com/user-attachments/assets/1043bc14-4523-4224-99af-db68c651c2c0" />
+
+<img width="610" height="226" alt="image" src="https://github.com/user-attachments/assets/1043bc14-4523-4224-99af-db68c651c2c0"/>
+
+
+
+
 giải thích: 
 Khi ta bỏ qua (exclude) một route khỏi middleware VerifyCsrfToken, nghĩa là Laravel không còn kiểm tra mã xác thực (CSRF token) cho request đó nữa.
 Điều này mở ra nguy cơ cho các cuộc tấn công kiểu Cross-Site Request Forgery (CSRF).
