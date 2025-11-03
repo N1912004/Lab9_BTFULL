@@ -11,3 +11,5 @@
 <img width="1644" height="808" alt="image" src="https://github.com/user-attachments/assets/dfa4db6e-fb2f-49b6-9cee-c5958c6266de" />
 <img width="1644" height="258" alt="image" src="https://github.com/user-attachments/assets/f48b3b37-0392-406f-8839-24fd3fa4e7bf" />
 ![Uploading image.png…]()
+====Bài tập ôn luyện====
+<img width="610" height="226" alt="image" src="https://github.com/user-attachments/assets/1043bc14-4523-4224-99af-db68c651c2c0" />
