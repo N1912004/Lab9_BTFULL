@@ -38,3 +38,18 @@ Kẻ tấn công tạo một trang độc hại có form:
 <script>document.forms[0].submit();</script>
 Khi bạn mở trang độc hại này, trình duyệt tự động gửi request đến /api/webhook-test kèm cookie đăng nhập của bạn.
 Nếu route này không có CSRF bảo vệ, request đó được chấp nhận và thực thi như thể bạn tự gửi.
+
+Bài9: Gate tổng quát
+Bảng php admin có cột is_admin = 1 cho admin và 0 cho user thường: 
+<img width="2836" height="210" alt="image" src="https://github.com/user-attachments/assets/1b9c1b28-637d-4ced-92d7-4992ca6462cb" />
+login vào Demo User với is_admin = 1 ta thấy phần Quản trị viên
+<img width="1632" height="654" alt="image" src="https://github.com/user-attachments/assets/88096917-edd2-4ba2-a978-c036be88341d" />
++ Thử với is_admin = 0
+<img width="710" height="304" alt="image" src="https://github.com/user-attachments/assets/7d482dd4-9567-45a9-93e0-f89d06af457e" />
+----> ta thấy phần Quản trị viên  không có:
+  <img width="1580" height="626" alt="image" src="https://github.com/user-attachments/assets/ec003583-00e4-4a38-a2af-614286c91e6c" />
+
+
+
+
+
